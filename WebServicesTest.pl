@@ -44,7 +44,7 @@ sub ProcessRequest
 		open(my $fh, '>', "${opdir}/${ServiceName}.xml");
 		print $fh $response->as_string;
 		close $fh;
-		print $fh1 "AWS_sit1_Chordiant;${ServiceName};Passed\n";
+		print $fh1 "AWS_SIT1;${ServiceName};Passed\n";
 
 	}	
 	else
@@ -52,7 +52,7 @@ sub ProcessRequest
 		open(my $fh2, '>', "${opdir}/${ServiceName}_Error.xml");
 		print $fh2 $response->as_string;
 		close $fh2;
-		print $fh1 "AWS_sit1_Chordiant;${ServiceName};Failed\n";
+		print $fh1 "AWS_SIT1;${ServiceName};Failed\n";
 	}
 }
 
