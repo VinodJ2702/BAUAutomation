@@ -29,7 +29,7 @@ echo "<html>" >> $html
        echo "Hello Team," >> $html
        echo "<BR>" >> $html
        echo "<BR>" >> $html
-       echo "<h3><u> WebService Sanity Status AWS SIT1 Chordiant : </u></h3" >> $html
+       echo "<h3><u> WebService Sanity Status : </u></h3" >> $html
        echo "<BR>" >> $html
        echo '<table>' >> $html
        echo '<th bgcolor="#00FFFF">Environment</th>' >> $html
