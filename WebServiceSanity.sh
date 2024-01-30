@@ -55,7 +55,7 @@ echo "<html>" >> $html
        echo '<p style="font-family;Arial;font-size;14px;">' >> $html
        echo "Regards," >> $html
        echo "<BR>" >> $html
-       echo "Chordiant Tech Support" >> $html
+       echo "Support Team" >> $html
        echo "</p>" >> $html
        echo "</body>" >> $html
        echo "</html>" >> $html
